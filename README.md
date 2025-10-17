@@ -1,4 +1,4 @@
-#🏨 TripNest – Online Hotel Booking System
+🏨 TripNest – Online Hotel Booking System
 
 TripNest is a MERN Stack web application designed to simplify the process of searching, viewing, and booking hotels online. It provides a modern, responsive, and user-friendly interface built with React.js and Tailwind CSS, ensuring a smooth experience for both customers and hotel administrators.
 
