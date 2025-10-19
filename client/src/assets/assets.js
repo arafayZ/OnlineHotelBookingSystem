@@ -75,10 +75,15 @@ export const assets = {
 }
 
 export const cities = [
-    "Dubai",
-    "Singapore",
-    "New York",
-    "London",
+    "Karachi",
+    "Lahore",
+    "Islamabad",
+    "Rawalpindi",
+    "Bhurban",
+    "Peshwar",
+    "Quetta",
+    "Gilgit, Gilgit-Baltistan",
+    "Faisalabad"
 ];
 
 // Exclusive Offers Dummy Data
