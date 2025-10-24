@@ -86,21 +86,68 @@ export const cities = [
     "Faisalabad"
 ];
 
-// Exclusive Offers Dummy Data
+// TripNest Exclusive Offers Dummy Data
 export const exclusiveOffers = [
-    { _id: 1, title: "Summer Escape Package", description: "Enjoy a complimentary night and daily breakfast", priceOff: 25, expiryDate: "Aug 31", image: exclusiveOfferCardImg1 },
-    { _id: 2, title: "Romantic Getaway", description: "Special couples package including spa treatment", priceOff: 20, expiryDate: "Sep 20", image: exclusiveOfferCardImg2 },
-    { _id: 3, title: "Luxury Retreat", description: "Book 60 days in advance and save on your stay at any of our luxury properties worldwide.", priceOff: 30, expiryDate: "Sep 25", image: exclusiveOfferCardImg3 },
+    { 
+        _id: 1, 
+        title: "Weekend Wanderer Deal", 
+        description: "Take a spontaneous break from the city and unwind at handpicked countryside retreats. Enjoy 20% off on stays that blend comfort, charm, and serenity — perfect for a quick escape that feels like a full vacation.", 
+        priceOff: 20, 
+        expiryDate: "Nov 15", 
+        image: exclusiveOfferCardImg1 
+    },
+    { 
+        _id: 2, 
+        title: "Couples Paradise Offer", 
+        description: "Celebrate love with our romantic beachfront stays, a complimentary candlelight dinner, and rejuvenating spa sessions. TripNest makes every moment together unforgettable with this exclusive 25% discount.", 
+        priceOff: 25, 
+        expiryDate: "Dec 10", 
+        image: exclusiveOfferCardImg2 
+    },
+    { 
+        _id: 3, 
+        title: "Adventure Escape Bundle", 
+        description: "Fuel your sense of adventure with mountain lodges and thrilling outdoor experiences. Book 30 days in advance and save 30% on stays that bring you closer to nature — from sunrise hikes to cozy nights by the fire.", 
+        priceOff: 30, 
+        expiryDate: "Dec 20", 
+        image: exclusiveOfferCardImg3 
+    },
 ]
 
-// Testimonials Dummy Data
-export const testimonials = [
-    { id: 1, name: "Emma Rodriguez", address: "Barcelona, Spain", image: "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=200", rating: 5, review: "I've used many booking platforms before, but none compare to the personalized experience and attention to detail that QuickStay provides." },
-    { id: 2, name: "Liam Johnson", address: "New York, USA", image: "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=200", rating: 4, review: "QuickStay exceeded my expectations. The booking process was seamless, and the hotels were absolutely top-notch. Highly recommended!" },
-    { id: 3, name: "Sophia Lee", address: "Seoul, South Korea", image: "https://images.unsplash.com/photo-1701615004837-40d8573b6652?q=80&w=200", rating: 5, review: "Amazing service! I always find the best luxury accommodations through QuickStay. Their recommendations never disappoint!" }
-];
 
-// Facility Icon
+
+// TripNest Testimonials Dummy Data
+export const testimonials = [
+    { 
+        id: 1, 
+        name: "Ayesha Khan", 
+        address: "Peshwar, Pakistan", 
+        image: "https://images.unsplash.com/photo-1607746882042-944635dfe10e?q=80&w=200", 
+        rating: 5, 
+        review: "TripNest made our weekend trip completely stress-free! The booking process was quick, and the stay exceeded our expectations. I loved the friendly service, curated options, and how everything felt perfectly tailored for a comfortable and memorable experience." 
+    },
+    { 
+        id: 2, 
+        name: "Hamza Ahmed", 
+        address: "Karachi, Pakistan", 
+        image: "https://images.unsplash.com/photo-1595152772835-219674b2a8a6?q=80&w=200", 
+        rating: 4, 
+        review: "I’ve used many travel sites before, but TripNest truly stands out. The platform is completely stress-free! smooth, user-friendly, and filled with unique stays. I discovered amazing local hotels that perfectly matched my style and budget without any hassle or confusion." 
+    },
+    { 
+        id: 3, 
+        name: "Sara Malik", 
+        address: "Islamabad, Pakistan", 
+        image: "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?q=80&w=200", 
+        rating: 5, 
+        review: "TripNest exceeded every expectation! The hotel suggestions were spot-on, the customer support was responsive, and the whole experience felt effortless. It’s the perfect choice for travelers who value comfort, quality, and a bit of adventure in every trip." 
+    }
+]
+
+
+
+
+// TripNest Facility Icon
 export const facilityIcons = {
     "Free WiFi": assets.freeWifiIcon,
     "Free Breakfast": assets.freeBreakfastIcon,
@@ -109,7 +156,7 @@ export const facilityIcons = {
     "Pool Access": assets.poolIcon,
 };
 
-// For Room Details Page
+// TripNest Room Details Data
 export const roomCommonData = [
     { icon: assets.homeIcon, title: "Clean & Safe Stay", description: "A well-maintained and hygienic space just for you." },
     { icon: assets.badgeIcon, title: "Enhanced Cleaning", description: "This host follows Staybnb's strict cleaning standards." },
@@ -132,18 +179,18 @@ export const userDummyData = {
     ]
 }
 
-// Hotel Dummy Data
+// TripNest Hotel Dummy Data
 export const hotelDummyData = {
     "_id": "67f76393197ac559e4089b72",
-    "name": "Urbanza Suites",
-    "address": "Main Road  123 Street , 23 Colony",
+    "name": "Pearl Continental",
+    "address": "Club Road, Karachi",
     "contact": "+0123456789",
     "owner": userDummyData,
-    "city": "New York",
     "createdAt": "2025-04-10T06:22:11.663Z",
     "updatedAt": "2025-04-10T06:22:11.663Z",
     "__v": 0
-}
+};
+
 
 // Rooms Dummy Data
 export const roomsDummyData = [
