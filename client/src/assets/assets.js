@@ -180,8 +180,9 @@ export const userDummyData = {
 }
 
 // TripNest Hotel Dummy Data
-export const hotelDummyData = {
-    "_id": "67f76393197ac559e4089b72",
+export const hotelDummyData = [
+  {
+    "_id": "h1",
     "name": "Pearl Continental",
     "address": "Club Road, Karachi",
     "contact": "+0123456789",
@@ -189,61 +190,174 @@ export const hotelDummyData = {
     "createdAt": "2025-04-10T06:22:11.663Z",
     "updatedAt": "2025-04-10T06:22:11.663Z",
     "__v": 0
-};
+  },
+  {
+    "_id": "h2",
+    "name": "Hotel One",
+    "address": "Main Boulevard, Lahore",
+    "contact": "+0987654321",
+    "owner": userDummyData,
+    "createdAt": "2025-04-12T10:15:33.123Z",
+    "updatedAt": "2025-04-12T10:15:33.123Z",
+    "__v": 0
+  },
+  {
+    "_id": "h3",
+    "name": "Serena Hotel",
+    "address": "F-5/1, Islamabad",
+    "contact": "+0213456789",
+    "owner": userDummyData,
+    "createdAt": "2025-04-15T08:45:22.456Z",
+    "updatedAt": "2025-04-15T08:45:22.456Z",
+    "__v": 0
+  },
+  {
+    "_id": "h4",
+    "name": "Flashman’s Hotel",
+    "address": "Mall Road, Rawalpindi",
+    "contact": "+0511122334",
+    "owner": userDummyData,
+    "createdAt": "2025-04-18T09:22:41.123Z",
+    "updatedAt": "2025-04-18T09:22:41.123Z",
+    "__v": 0
+  },
+  {
+    "_id": "h5",
+    "name": "Pearl Continental Bhurban",
+    "address": "Murree Hills, Bhurban",
+    "contact": "+0573344556",
+    "owner": userDummyData,
+    "createdAt": "2025-04-19T08:50:11.987Z",
+    "updatedAt": "2025-04-19T08:50:11.987Z",
+    "__v": 0
+  },
+  {
+    "_id": "h6",
+    "name": "Pearl Continental Peshawar",
+    "address": "Khyber Road, Peshawar",
+    "contact": "+0915566778",
+    "owner": userDummyData,
+    "createdAt": "2025-04-21T10:12:01.456Z",
+    "updatedAt": "2025-04-21T10:12:01.456Z",
+    "__v": 0
+  },
+  {
+    "_id": "h7",
+    "name": "Hotel Serena Quetta",
+    "address": "Shahrah-e-Zarghoon, Quetta",
+    "contact": "+0819988776",
+    "owner": userDummyData,
+    "createdAt": "2025-04-22T07:33:15.222Z",
+    "updatedAt": "2025-04-22T07:33:15.222Z",
+    "__v": 0
+  },
+  {
+    "_id": "h8",
+    "name": "Serena Hotel Gilgit",
+    "address": "Jutial, Gilgit, Gilgit-Baltistan",
+    "contact": "+0581112233",
+    "owner": userDummyData,
+    "createdAt": "2025-04-23T11:15:44.879Z",
+    "updatedAt": "2025-04-23T11:15:44.879Z",
+    "__v": 0
+  },
+  {
+    "_id": "h9",
+    "name": "Avari Express Faisalabad",
+    "address": "Susan Road, Faisalabad",
+    "contact": "+0414455667",
+    "owner": userDummyData,
+    "createdAt": "2025-04-25T09:10:19.000Z",
+    "updatedAt": "2025-04-25T09:10:19.000Z",
+    "__v": 0
+  }
+];
 
 
-// Rooms Dummy Data
+//  TripNest Rooms Dummy Data
 export const roomsDummyData = [
-    {
-        "_id": "67f7647c197ac559e4089b96",
-        "hotel": hotelDummyData,
-        "roomType": "Double Bed",
-        "pricePerNight": "25,999",
-        "amenities": ["Room Service", "Mountain View", "Pool Access"],
-        "images": [roomImg1, roomImg2, roomImg3, roomImg4],
-        "isAvailable": true,
-        "createdAt": "2025-04-10T06:26:04.013Z",
-        "updatedAt": "2025-04-10T06:26:04.013Z",
-        "__v": 0
-    },
-    {
-        "_id": "67f76452197ac559e4089b8e",
-        "hotel": hotelDummyData,
-        "roomType": "Double Bed",
-        "pricePerNight": "25,999",
-        "amenities": ["Room Service", "Mountain View", "Pool Access"],
-        "images": [roomImg2, roomImg3, roomImg4, roomImg1],
-        "isAvailable": true,
-        "createdAt": "2025-04-10T06:25:22.593Z",
-        "updatedAt": "2025-04-10T06:25:22.593Z",
-        "__v": 0
-    },
-    {
-        "_id": "67f76406197ac559e4089b82",
-        "hotel": hotelDummyData,
-        "roomType": "Double Bed",
-        "pricePerNight": "25,999",
-        "amenities": ["Free WiFi", "Free Breakfast", "Room Service"],
-        "images": [roomImg3, roomImg4, roomImg1, roomImg2],
-        "isAvailable": true,
-        "createdAt": "2025-04-10T06:24:06.285Z",
-        "updatedAt": "2025-04-10T06:24:06.285Z",
-        "__v": 0
-    },
-    {
-        "_id": "67f763d8197ac559e4089b7a",
-        "hotel": hotelDummyData,
-        "roomType": "Single Bed",
-        "pricePerNight": "25,999",
-        "amenities": ["Free WiFi", "Room Service", "Pool Access"],
-        "images": [roomImg4, roomImg1, roomImg2, roomImg3],
-        "isAvailable": true,
-        "createdAt": "2025-04-10T06:23:20.252Z",
-        "updatedAt": "2025-04-10T06:23:20.252Z",
-        "__v": 0
-    }
-]
-
+  {
+    "_id": "r1",
+    "hotel": [hotelDummyData[0]], // Karachi
+    "roomType": "Executive Suite",
+    "pricePerNight": "25,999",
+    "amenities": ["Free WiFi", "Room Service", "Pool Access"],
+    "images": [roomImg1, roomImg2, roomImg3, roomImg4],
+    "isAvailable": true
+  },
+  {
+    "_id": "r2",
+    "hotel": [hotelDummyData[1]], // Lahore
+    "roomType": "Luxury Double",
+    "pricePerNight": "22,499",
+    "amenities": ["Free WiFi", "Free Breakfast", "Room Service"],
+    "images": [roomImg2, roomImg3, roomImg1, roomImg4],
+    "isAvailable": true
+  },
+  {
+    "_id": "r3",
+    "hotel": [hotelDummyData[2]], // Islamabad
+    "roomType": "Deluxe King Room",
+    "pricePerNight": "27,999",
+    "amenities": ["Free WiFi", "Free Breakfast", "Room Service"],
+    "images": [roomImg3, roomImg4, roomImg1, roomImg2],
+    "isAvailable": true
+  },
+  {
+    "_id": "r4",
+    "hotel": [hotelDummyData[3]], // Rawalpindi
+    "roomType": "Standard Room",
+    "pricePerNight": "18,499",
+    "amenities": ["Room Service", "Mountain View", "Pool Access"],
+    "images": [roomImg4, roomImg1, roomImg2, roomImg3],
+    "isAvailable": true
+  },
+  {
+    "_id": "r5",
+    "hotel": [hotelDummyData[4]], // Bhurban
+    "roomType": "Hillside View Suite",
+    "pricePerNight": "30,999",
+    "amenities": ["Mountain View", "Room Service", "Pool Access"],
+    "images": [roomImg1, roomImg4, roomImg2, roomImg3],
+    "isAvailable": true
+  },
+  {
+    "_id": "r6",
+    "hotel": [hotelDummyData[5]], // Peshawar
+    "roomType": "Premium Room",
+    "pricePerNight": "20,999",
+    "amenities": ["Room Service", "Free WiFi", "Free Breakfast"],
+    "images": [roomImg2, roomImg1, roomImg3, roomImg4],
+    "isAvailable": true
+  },
+  {
+    "_id": "r7",
+    "hotel": [hotelDummyData[6]], // Quetta
+    "roomType": "Deluxe Double",
+    "pricePerNight": "23,499",
+    "amenities": ["Room Service", "Mountain View", "Free Breakfast"],
+    "images": [roomImg3, roomImg2, roomImg4, roomImg1],
+    "isAvailable": true
+  },
+  {
+    "_id": "r8",
+    "hotel": [hotelDummyData[7]], // Gilgit
+    "roomType": "Mountain Suite",
+    "pricePerNight": "35,999",
+    "amenities": ["Mountain View", "Free WiFi", "Room Service"],
+    "images": [roomImg4, roomImg3, roomImg2, roomImg1],
+    "isAvailable": true
+  },
+  {
+    "_id": "r9",
+    "hotel": [hotelDummyData[8]], // Faisalabad
+    "roomType": "Business Suite",
+    "pricePerNight": "21,499",
+    "amenities": ["Free WiFi", "Room Service", "Free Breakfast"],
+    "images": [roomImg2, roomImg4, roomImg1, roomImg3],
+    "isAvailable": true
+  }
+];
 
 
 // User Bookings Dummy Data
